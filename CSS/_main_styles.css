@@ -1,0 +1,95 @@
+body{
+	font-family: Open Sans;
+	font-size: 12px;
+	color: #fff;
+    background-color: rgb(34, 101, 156);
+}
+
+@font-face { 
+	font-family: Open Sans; 
+	src: url('../WEB/open-sans2.woff2') format("truetype"); } 
+
+.offscreen {
+	position:absolute;
+	left:-10000px;
+}
+
+.float-left{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+#main {
+	width: 960px;
+	margin: auto;
+}
+
+.header-image{
+	height: 90px;
+	margin-right: 2em;
+}
+
+.text-zoom_img{
+    background-image: url("file:///C:/Users/Dominick.Caacbay/Documents/Accessibility/Ravenala%20Accessibility%20Presentation/WEB/read-more-blue-button.png");
+    background-size: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 70px;
+}
+
+.text-zoom_read-more{
+	background: linear-gradient(to bottom, #0233A4 00%, #000036 100%) repeat scroll 0 0 #036;
+	border: 1px solid #ccc;
+    border-radius: 6px;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.917em;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.text-zoom_read-more:hover, .text-zoom_read-more:focus{
+	text-decoration: underline;
+}
+
+.inaccessibleContainer .col-side {
+	width: 288px;
+	float: left;
+}
+.inaccessibleContainer .col-center{
+	width: 672px;
+	float: left;
+}
+.inaccessibleContainer .side-content{
+	border: 1px solid #ccc;
+    border-radius: 6px;
+	height: 75px;
+	padding: 5px 10px 5px 10px;
+}
+.inaccessibleContainer .text-zoom_search{
+	height: 22px;
+    width: 52px;
+}
+
+.accessibleContainer .col-side {
+	width: 30%;
+	float: left;
+}
+.accessibleContainer .col-center{
+	width: 70%;
+	float: left;
+}
+.accessibleContainer .side-content{
+	border: 1px solid #ccc;
+    border-radius: 6px;
+	padding: 5px 10px 5px 10px;
+}
+.accessibleContainer .text-zoom_search {
+	height: 1.8em;
+    width: 4em;
+}
