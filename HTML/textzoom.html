@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Text-Zoom : Ravenala Accessibility Presentation</title>
+		
+		<link rel="stylesheet" type="text/css" href="../CSS/_main_styles.css" />
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<img src="../WEB/ravenala_logo.png" alt="Ravenala Logo" class="float-left header-image">
+				<h1 class="float-left">Text Zoom Issues</h1>
+			</div>
+			<div class="clear"></div>
+			
+			<h2 id="textZoomDiv">Text-Zoom</h3>
+			<div class="inaccessibleContainer">
+				<h3>Inaccessible Content</h3>
+				<article class="col-center">
+					<p style="font-size: 12px;">
+						Mayor: These kinds of crimes need more creative, effective punishments. For example, we could require compulsory
+					</p> 
+					<form>
+						<label for="sampleName" style="font-size: 12px;">Search Employee:</label>
+						<input id="sampleName" type="text" name="textfield" placeholder="Name or employee id" style="height: 14px; width: 170px;">
+						<input type="button" class="text-zoom_search" value="search">
+					</form>
+				</article>
+				<aside class="col-side">
+					<div class="side-content">
+						Brain donations: huge drop off in brain donations due to the great 'success' of 'Slow Traffic, Safe Streets' policy
+						<a href="#" class="text-zoom_img"></a>
+					</div>
+				</aside>
+			</div>
+			<div class="clear"></div>
+			<div class="accessibleContainer">
+				<h3>Accessible Content</h3>
+				<article class="col-center">
+					<p>
+						Mayor: These kinds of crimes need more creative, effective punishments. For example, we could require compulsory
+					</p> 
+					<form>
+						<label for="sampleName">Search Employee:</label>
+						<input id="sampleName" type="text" name="textfield" placeholder="Name or employee id" style="height: 1.25em; width: 12.75em;">
+						<input type="button" class="text-zoom_search" value="search">
+					</form>
+				</article>
+				<aside class="col-side">
+					<div class="side-content">
+						Brain donations: huge drop off in brain donations due to the great 'success' of 'Slow Traffic, Safe Streets' policy
+						<div>
+							<a href="#" class="text-zoom_read-more">Read more about the content</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+			<div class="clear"></div>
+			<a href="../HTML/index.html">Back to home page</a>
+		</div>
+	</body>
+</html>

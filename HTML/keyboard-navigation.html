@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Keyboard Navigation : Ravenala Accessibility Presentation</title>
+		
+		<link rel="stylesheet" type="text/css" href="../CSS/_main_styles.css" />
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<img src="../WEB/ravenala_logo.png" alt="Ravenala Logo" class="float-left header-image">
+				<h1 class="float-left">Keyboard Navigation Issues</h1>
+			</div>
+			<div class="clear"></div>
+			
+			<h2 id="navigationDiv">Accessing Data Tables</h2>
+			<div class="inaccessibleContainer">
+				<h3>Inaccessible Content</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>Employee ID</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>140100</td>
+							<td>Aaron</td>
+							<td>Macandili</td>
+						</tr>
+						<tr>
+							<td>140101</td>
+							<td>Jerome</td>
+							<td>Canete</td>
+						</tr>
+						<tr>
+							<td>140102</td>
+							<td>Eduard</td>
+							<td>Dones</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="clear"></div>
+			<div class="accessibleContainer">
+				<h3>Accessible Content</h3>
+				<table summary="Example of an accessible table showing basic employee information">
+					<caption class="offscreen">Accessible Data Table</caption>
+					<thead>
+						<tr>
+							<th scope="col">Employee ID</th>
+							<th scope="col">First Name</th>
+							<th scope="col">Last Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>140100</td>
+							<td>Aaron</td>
+							<td>Macandili</td>
+						</tr>
+						<tr>
+							<td>140101</td>
+							<td>Jerome</td>
+							<td>Canete</td>
+						</tr>
+						<tr>
+							<td>140102</td>
+							<td>Eduard</td>
+							<td>Dones</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<a href="../HTML/index.html">Back to home page</a>
+		</div>
+	</body>
+</html>
